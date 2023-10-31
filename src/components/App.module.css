@@ -1,0 +1,26 @@
+.app {
+  @apply h-full flex flex-col;
+  --menu-width: 250px;
+  --header-height: 45px;
+}
+
+.header {
+  @apply fixed w-full bg-gray-700 flex items-center gap-2 pl-2;
+  height: var(--header-height);
+}
+
+.menu {
+  @apply fixed h-full left-0 bg-gray-800;
+  top: var(--header-height);
+  width: var(--menu-width);
+}
+
+.menuItem {
+  @apply p-1 block text-center cursor-pointer hover:opacity-50;
+}
+
+.content {
+  @apply fixed bottom-0 overflow-auto;
+  top: var(--header-height);
+  left: var(--menu-width);
+}
