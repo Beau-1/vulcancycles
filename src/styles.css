@@ -9,5 +9,5 @@ body,
 }
 
 body {
-  @apply bg-gray-900 text-white overflow-hidden;
+  @apply bg-gray-900 text-white overflow-hidden text-2xl;
 }

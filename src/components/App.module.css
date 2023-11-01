@@ -16,11 +16,11 @@
 }
 
 .menuItem {
-  @apply p-1 block text-center cursor-pointer hover:opacity-50;
+  @apply p-1 w-full text-center cursor-pointer hover:opacity-50;
 }
 
 .content {
-  @apply fixed bottom-0 overflow-auto;
+  @apply fixed bottom-0 overflow-auto w-full;
   top: var(--header-height);
   left: var(--menu-width);
 }
